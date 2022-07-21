@@ -1,0 +1,19 @@
+#Card {
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  cursor: pointer;
+  transition: 0.9s;
+  /* height: 90%; */
+  height: 80%;
+  border-radius: 15px;
+}
+
+#Card:hover {
+  opacity: 60%;
+}
+
+#title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
